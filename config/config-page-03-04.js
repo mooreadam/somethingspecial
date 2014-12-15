@@ -240,7 +240,7 @@ PBS.KIDS.storybook.config.pages.push({
             autoStart: false,
             autoReset: true,
             sound: {
-                startTime: 233,
+                startTime: 236.8,
                 endTime: 238,
                 loop: false
 	       }

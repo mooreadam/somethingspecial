@@ -12,41 +12,26 @@ PBS.KIDS.storybook.config.pages.push({
 	
 	
 	
- /*       {
-            // Yaught
+
+       
+       
+
+
+	            
+        {
+            // E Animation
 			type: "Sprite",
-			x: "50px",
-			y: "190px",
-			url: "images/anim/yaught.png",
-            numFrames: 14,
-            frameDelay: 20,
-            startDelay: 10,
+			x: "234px",
+			y: "307px",
+			url: "images/pages/page-17/p17-e.png",
+            numFrames: 13,
+            frameDelay: 15,
             autoStart: true,
             autoReset: false,
             playOnPress: false,
             loop: false
 
-        },*/
-       
-       
-
-       
-       
-                {
-            //  Yaught Animation
-			type: "Sprite",
-			x: "-500px",
-			y: "50px",
-			url: "images/anim/yaught2.png",
-            numFrames: 8,
-            startDelay: 420,
-            frameDelay: 90,
-            autoStart: true,
-            autoReset: false,
-            playOnPress: true,
-            loop: false
         },
-	
 	
 	
 
@@ -68,21 +53,7 @@ PBS.KIDS.storybook.config.pages.push({
         
         
         
-        
-        {
-            // E Animation
-			type: "Sprite",
-			x: "234px",
-			y: "307px",
-			url: "images/pages/page-17/p17-e.png",
-            numFrames: 13,
-            frameDelay: 15,
-            autoStart: true,
-            autoReset: false,
-            playOnPress: false,
-            loop: false
-
-        },
+   
          {
             // dog Animation
 			type: "Sprite",
@@ -113,7 +84,7 @@ PBS.KIDS.storybook.config.pages.push({
 
         },
         {
-            // d1
+            // dog1
 			type: "Sprite",
 			x: "-150px",
 			y: "550px",
@@ -125,13 +96,13 @@ PBS.KIDS.storybook.config.pages.push({
             playOnPress: true,
             loop: false,
             sound: {
-		      startTime: 240,
+		      startTime: 239,
 		      endTime: 241,
 		      loop: false
 	       }
         },
         {
-            // d2
+            // dog2
 			type: "Sprite",
 			x: "550px",
 			y: "550px",
@@ -143,7 +114,7 @@ PBS.KIDS.storybook.config.pages.push({
             playOnPress: true,
             loop: false,
             sound: {
-		      startTime: 240,
+		      startTime: 239,
 		      endTime: 241,
 		      loop: false
 	       }
@@ -201,9 +172,9 @@ PBS.KIDS.storybook.config.pages.push({
         {
             // Ship
 			type: "Sprite",
-			x: "0px",
+			x: "-400px",
 			y: "360px",
-			url: "images/pages/page-18/ship-anim.png",
+			url: "images/pages/page-18/ship-anim2.png",
             numFrames: 12,
             frameDelay: 100,
             autoStart: true,
@@ -257,6 +228,11 @@ PBS.KIDS.storybook.config.pages.push({
 		      loop: false
 	       }
         },
+        
+ 
+        
+        
+        
 		{
 			type: "TextArea",
 			x: 0,

@@ -23,10 +23,10 @@ PBS.KIDS.storybook.config.pages.push({
             autoStart: true,
             autoReset: false
 		},
-        
+
         {
             //bird cycler
-            
+
 			type: "Cycler",
     			content: [
         			{
@@ -36,7 +36,7 @@ PBS.KIDS.storybook.config.pages.push({
             			y: 0,
             			numFrames: 1,
             			frameDelay: 1,
-            			url: "images/pages/page-03/bird-1.png"
+            			url: "images/pages/page-03/bird-2.png"
         			},
         			{
             			type: "Sprite",
@@ -45,7 +45,7 @@ PBS.KIDS.storybook.config.pages.push({
             			y: 0,
             			numFrames: 1,
             			frameDelay: 1,
-            			url: "images/pages/page-03/bird-2.png"
+            			url: "images/pages/page-03/bird-3.png"
         			},
                     {
             			type: "Sprite",
@@ -54,7 +54,7 @@ PBS.KIDS.storybook.config.pages.push({
             			y: 0,
             			numFrames: 1,
             			frameDelay: 6,
-            			url: "images/pages/page-03/bird-3.png"
+            			url: "images/pages/page-03/bird-1.png"
         			},
     			]
 		},
@@ -145,7 +145,7 @@ PBS.KIDS.storybook.config.pages.push({
             y: "370px",
             url: "images/pages/page-04/sally-eat.png",
             numFrames: 3,
-            startDelay: 700,
+            startDelay: 475,
             frameDelay: 60,
             loop: true,
             playOnPress: false,

@@ -191,20 +191,10 @@ PBS.KIDS.storybook.config.pages.push({
             playOnPress: false,
             loop: false
         },
-        {
-            //  Char walk Animation
-			type: "Sprite",
-			x: 0,
-			y: 0,
-			url: "images/pages/page-16/char.png",
-            numFrames: 2,
-            frameDelay: 400,
-            startDelay: 200,
-            autoStart: true,
-            autoReset: false,
-            playOnPress: false,
-            loop: false
-        },
+        
+        
+        
+   
         
         {
             // Wind Animation
@@ -234,6 +224,73 @@ PBS.KIDS.storybook.config.pages.push({
             playOnPress: true,
             loop: false
         },
+        
+        
+
+        
+        {
+            //  Char walk Animation
+			type: "Sprite",
+			x: 0,
+			y: 0,
+			url: "images/pages/page-16/char.png",
+            numFrames: 2,
+            frameDelay: 400,
+            startDelay: 200,
+            autoStart: true,
+            autoReset: false,
+            playOnPress: false,
+            loop: false
+        },
+        
+        
+                                    {
+            //  Yaught Animation
+			type: "Sprite",
+			x: "-140px",
+			y: "330px",
+			url: "images/anim/yaught5.png",
+            numFrames: 8,
+            startDelay: 0,
+            frameDelay: 80,
+            autoStart: false,
+            autoReset: false,
+            playOnPress: true,
+            loop: false
+        },
+        
+	
+        
+        
+        
+/*        			// Gull Cycler2
+			type: "Cycler",
+    			content: [
+        			{
+            			type: "Sprite",
+            			id: "blank",
+            			x: "281px",
+            			y: "118px",
+            			numFrames: 1,
+            			url: "images/anim/sitting_gull_flying.png"
+        			},
+        			{
+            			type: "Sprite",
+            			id: "fountain",
+            			x: "281px",
+            			y: "118px",
+            			numFrames: 7,
+            			frameDelay: 13,
+            			url: "images/anim/gull_flying_Left.png"
+            			
+            		
+            			
+        			}
+    			]
+		},*/
+        
+        
+        
 		{
 			type: "TextArea",
 			x: 0,

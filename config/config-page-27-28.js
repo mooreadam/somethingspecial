@@ -5,8 +5,8 @@ PBS.KIDS.storybook.config.pages.push({
 		url: "images/pages/page-29/29-party.png"
 	},
     sound: {
-		startTime: 256,
-		endTime: 271,
+		startTime: 257,
+		endTime: 269.3,
 		loop: true
 	},
 	content: [
@@ -121,7 +121,7 @@ PBS.KIDS.storybook.config.pages.push({
 			type: "Sprite",
 			x: "15px",
 			y: "660px",
-			url: "images/pages/page-30/bfly-hide.png",
+			url: "images/pages/page-27/bfly-hide.png",
             numFrames: 2,
             frameDelay: 300,
             autoStart: true,

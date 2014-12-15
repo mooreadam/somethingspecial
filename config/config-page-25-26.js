@@ -4,7 +4,7 @@ PBS.KIDS.storybook.config.pages.push({
 	},
     sound: {
 		startTime: 204,
-		endTime: 233,
+		endTime: 234.5,
 		loop: false
 	},
 	content: [
@@ -50,6 +50,10 @@ PBS.KIDS.storybook.config.pages.push({
                 url: "images/pages/page-27/bfly1.png"
             
         },
+        
+        
+        
+        
         // bfly Cycler
         {
             type: "Cycler",
@@ -71,7 +75,7 @@ PBS.KIDS.storybook.config.pages.push({
                 y: "305px",
                 numFrames: 2,
                 frameDelay: 20,
-                url: "images/pages/page-27/b_anim.png",
+                url: "images/pages/page-27/b_anim2.png",
                 loop: true
             }
             

@@ -1,23 +1,23 @@
-html {	
+html {
 	margin: 0;
-	
+
 	height: 100%;
 }
 
 body {
 	margin: 0;
 	background-color: #BBB;
-	
+
 	height: 100%;
 }
 
 p {
-	margin-top: 0;	
+	margin-top: 0;
 }
 
 em {
 	font-weight: bold;
-	font-style: italic;	
+	font-style: italic;
 }
 
 /* Engine Container */
@@ -25,13 +25,17 @@ em {
 #pbsStorybookContainer {
 	/* Keep all elements within the pages */
 	overflow-x: hidden;
-	
+
 	/* Turn off tap highlight in Mobile Safari */
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	
+
 	/* Relative position is required to position the absolute positioned elements */
 	position: relative !important;
-	
+	background-image: url("../../images/pages/page-0/cover_v2.png");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+
+
 	width: 100%;
 	height: 100%;
 }
@@ -41,7 +45,7 @@ em {
 #pbsBookWrapper {
 	/* Keep all elements within the wrapper */
 	overflow-x: hidden;
-	
+
 	width: 100%;
 	height: 100%;
 }
@@ -49,19 +53,19 @@ em {
 /* Book */
 
 #pbsBookContainer {
-	width: 100%; 
+	width: 100%;
 
 }
 
 .pbsPageTurnContainer {
 	position: relative;
-	
+
 	/* Keep all elements within the pages */
 	overflow-x: hidden;
 
 	width: 50%;
 	height: 100%;
-	
+
 	/* Represent book depth */
 	border-bottom: 2px #333 solid;
 }
@@ -82,11 +86,11 @@ em {
 	position: absolute;
 
 	background-image: -webkit-gradient(linear, 100% 0%, 0% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
-	background-image: -webkit-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5)); 
+	background-image: -webkit-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -moz-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -ms-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -o-linear-gradient(right, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
-	
+
 	width: 100%;
 	height: 100%;
 }
@@ -98,11 +102,11 @@ em {
 	position: absolute;
 
 	background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(100, 100, 100, 0)), to(rgba(100, 100, 100, 0.5)));
-	background-image: -webkit-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5)); 
+	background-image: -webkit-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -moz-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -ms-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
 	background-image: -o-linear-gradient(left, rgba(100, 100, 100, 0), rgba(100, 100, 100, 0.5));
-	
+
 	width: 100%;
 	height: 100%;
 }
@@ -110,17 +114,17 @@ em {
 .pbsPagesContainer {
 
 	position: absolute;
-	
+
 	/* Keep all elements within the pages */
 	overflow-x: hidden;
 	overflow-y: hidden;
-	
+
 	width: 100%;
 	height: 100%;
-	
+
 	/* Represent book depth */
 	border-bottom: 2px #333 solid;
-	
+
 	/* Book shadow */
 	-moz-box-shadow: 0px 1px 5px 0px #000;
 	-webkit-box-shadow: 0px 1px 5px 0px #000;
@@ -135,7 +139,7 @@ em {
 .pbsPage {
 	/* Relative position is required to position the absolute positioned elements */
 	position: relative !important;
-	
+
 	width: 100%;
 	height: 100%;
 }
@@ -143,13 +147,13 @@ em {
 .pbsPageCanvas {
 	/* Position left page and right page next to each other */
 	float: left;
-	
+
 	width: 100%;
 	height: 100%;
 }
 
 .pbsSprite {
-	
+
 }
 
 .pbsCanvas {
@@ -160,12 +164,12 @@ em {
 .pbsTextArea {
 	/* Layer the element on top of the page */
 	position: absolute;
-	
+
 	margin: 0;
-	
+
 	/* Remove the default text cursor */
 	cursor: default;
-	
+
 	/* Prevent highlighting text on drag */
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -178,13 +182,13 @@ em {
 .pbsDrawingPad {
 	/* Layer the element on top of the page */
 	position: absolute;
-	
+
 	margin: 0;
 }
 
 .drawingCanvas {
 	position: absolute;
-	
+
 	width: 100%;
 	height: 100%;
 }
